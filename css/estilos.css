@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;900&display=swap');
+
+/*--------- ENCABEZADO --------*/
+
+
+body {
+    font-family: Montserrat, sans-serif; 
+    overflow-x : hidden;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: semibold ;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: semibold ;
+}
+
+/*--------- SLIDER --------*/
+
+.carousel-inner {
+    max-height: 45rem;
+    margin: 0px 5px 0px 5px
+    w-70
+
+}
+
+/*--------- INTRO --------*/
+
+@media  (max-width: 768px){
+    #intro, #equipo {width: 90%  !important;}
+}
+
+.servicio-fila {
+    width: 100%  !important;
+    text-align: center ;
+}
+
+
+ .mapa {
+     background: url(../proyectoafterd.webcoder/Screenshot_20211213-171812.jpg);
+      width: 80%;
+      height: 600px ;
+ 
+    }         
+
+    #local{
+        background: #f3f3f3;
+        padding-bottom: 30px;
+        display:flex;
+        justify-content: center; 
+    }
+
+    .wrapper {
+        width: 50%;
+        margin-left: 100px;
+        padding-top: 100px;
+
+ } 
+
+ @media (max-width :1200px) {
+ #local {
+     flex-wrap: wrap;
+     padding-top: 30px;
+    
+ }
+
+ .wrapper {
+     width: 90%;
+     margin: auto;
+     padding-top: 50px;
+ }
+#bg-contacto{
+    position: relative;
+    top: 130px;
+
+}
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px ;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos {
+
+    font-size: 26px;
+    padding: 0 8px;
+}
+
